@@ -1,0 +1,7 @@
+xcuserdata/
+.DS_Store
+build/
+DerivedData/
+.vercel
+Config.local.xcconfig
+web/config.js

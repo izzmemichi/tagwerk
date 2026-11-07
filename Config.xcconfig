@@ -1,0 +1,9 @@
+// Build settings for your own install. Put your values in Config.local.xcconfig (ignored by git), see README.
+
+BUNDLE_ID_PREFIX = com.example
+DEVELOPMENT_TEAM =
+TAGWERK_APP_GROUP = group.$(BUNDLE_ID_PREFIX).tagwerk
+SUPABASE_HOST = your-project.supabase.co
+SUPABASE_ANON_KEY =
+
+#include? "Config.local.xcconfig"
